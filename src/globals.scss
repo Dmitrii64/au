@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+input {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 6px 12px;
+  border: 1px solid #999999;
+  outline: none;
+}
+
+.Container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  background-clip: content-box;
+  box-sizing: border-box;
+  padding: 90px 55px;
+}
