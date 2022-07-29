@@ -33,12 +33,13 @@ button {
   background-color: transparent;
 }
 
-input {
+input, select {
   font-size: 16px;
   line-height: 19px;
   padding: 6px 12px;
   border: 1px solid #999999;
   outline: none;
+  background-color: transparent;
 }
 
 .Container {

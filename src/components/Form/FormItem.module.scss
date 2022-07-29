@@ -1,0 +1,25 @@
+.Item {
+  display: flex;
+	align-items: center;
+  margin: 32px 0;
+}
+
+.Wrapper {
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+}
+
+.Input {
+  width: 335px;
+  height: fit-content;
+}
+
+.Description {
+	margin-left: 18px;	
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+}
