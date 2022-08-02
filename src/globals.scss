@@ -33,13 +33,21 @@ button {
   background-color: transparent;
 }
 
-input, select {
+input,
+select {
   font-size: 16px;
   line-height: 19px;
   padding: 6px 12px;
   border: 1px solid #999999;
   outline: none;
   background-color: transparent;
+}
+
+select {
+  position: relative;
+  appearance: none;
+  background: url("../public/arrow.svg") no-repeat 95% 50%;
+  cursor: pointer;
 }
 
 .Container {

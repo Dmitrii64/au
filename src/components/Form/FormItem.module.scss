@@ -1,7 +1,26 @@
 .Item {
+  position: relative;
   display: flex;
-	align-items: center;
+  align-items: center;
   margin: 32px 0;
+
+  &_Checkbox {
+    .Wrapper {
+      max-width: 237px;
+    }
+
+    .Input {
+      width: fit-content;
+      margin: 0;
+    }
+
+    .Description {
+      margin-left: 10px;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+  }
 }
 
 .Wrapper {
@@ -9,17 +28,30 @@
   max-width: 560px;
   display: flex;
   justify-content: space-between;
-	align-items: center;
+  align-items: center;
 }
 
 .Input {
   width: 335px;
   height: fit-content;
+
+  &_Error {
+    border: 1px solid #ff0000;
+  }
 }
 
 .Description {
-	margin-left: 18px;	
+  margin-left: 18px;
   font-size: 12px;
   line-height: 20px;
   color: #999999;
+}
+
+.Error {
+  position: absolute;
+  bottom: -25px;
+  left: 23%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ff0000;
 }
